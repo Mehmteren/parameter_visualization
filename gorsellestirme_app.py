@@ -5,7 +5,7 @@ import io
 
 st.set_page_config(page_title="Parametre Görselleştirme", layout="wide")
 
-st.title("📈 Anlık Parametre Görselleştirme Aracı")
+st.title("Anlık Parametre Görselleştirme Aracı")
 st.write("Lütfen `topluexcel.py` ile oluşturduğunuz 'Parametre Tarihçesi' Excel dosyasını (.xlsx) yükleyin.")
 
 uploaded_file = st.file_uploader(
@@ -128,3 +128,4 @@ if uploaded_file is not None:
 
 else:
     st.info("Başlamak için lütfen bir Excel dosyası yükleyin.")
+
